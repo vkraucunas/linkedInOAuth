@@ -8,6 +8,9 @@
   <div class="container">
 
     <h1>{{ title }}</h1>
+    {% if message %}
+        <h3>Hello, {{message}}</h3>
+    {% endif %}
     <p>Welcome to {{ title }}</p>
 
   </div>
